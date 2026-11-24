@@ -1,0 +1,1 @@
+# none: foretold-lens uses only the Python standard library (3.10+)
