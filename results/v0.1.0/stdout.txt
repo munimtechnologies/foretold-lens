@@ -1,0 +1,42 @@
+===== run-01-python: python -m unittest -v test_foretold
+
+===== run-02-python: python job.py --data-dir /data --out-dir /out
+[12:01:15] === event 2042703905028908928-32410 G 207-14
+[12:01:21] 2042703905028908928-32410 images found 644 after quality cuts 541
+[12:02:08]   50/541 cut-outs
+[12:03:00]   100/541 cut-outs
+[12:03:41]   150/541 cut-outs
+[12:04:29]   200/541 cut-outs
+[12:04:59] fetch failed (1/3) https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0420/431389/ztf_20250420431389_000685_zr_c04_o_q2_sciimg.fits?center=286.430902%2C31.176109&size=180arcsec&gzip=false: HTTP Error 404: Not Found
+[12:05:04] fetch failed (2/3) https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0420/431389/ztf_20250420431389_000685_zr_c04_o_q2_sciimg.fits?center=286.430902%2C31.176109&size=180arcsec&gzip=false: HTTP Error 404: Not Found
+[12:05:14] fetch failed (3/3) https://irsa.ipac.caltech.edu/ibe/data/ztf/products/sci/2025/0420/431389/ztf_20250420431389_000685_zr_c04_o_q2_sciimg.fits?center=286.430902%2C31.176109&size=180arcsec&gzip=false: HTTP Error 404: Not Found
+[12:05:29] cut-out failed: fetch failed: HTTP Error 404: Not Found
+[12:05:38]   250/541 cut-outs
+[12:06:23]   300/541 cut-outs
+[12:07:04]   350/541 cut-outs
+[12:07:51]   400/541 cut-outs
+[12:08:30]   450/541 cut-outs
+[12:09:10]   500/541 cut-outs
+[12:13:43] verdict 2042703905028908928-32410 MARGINAL
+[12:13:43] === event 2030898139472914688-4054 DR3 2030898139472914688
+[12:13:49] 2030898139472914688-4054 images found 2 after quality cuts 2
+[12:13:50] verdict 2030898139472914688-4054 NO_COVERAGE
+[12:13:50] === event 4288183244850920192-10753 DR3 4288183244850920192
+[12:13:59] 4288183244850920192-10753 images found 27 after quality cuts 22
+[12:14:24] verdict 4288183244850920192-10753 NO_COVERAGE
+[12:14:24] === event 514864534672816640-10470 DR3 514864534672816640
+[12:14:34] 514864534672816640-10470 images found 169 after quality cuts 143
+[12:15:19]   50/143 cut-outs
+[12:16:13]   100/143 cut-outs
+[12:17:00] verdict 514864534672816640-10470 NO_COVERAGE
+[12:17:00] === event 516896775755948416-58094 DR3 516896775755948416
+[12:17:08] 516896775755948416-58094 images found 307 after quality cuts 211
+[12:17:46]   50/211 cut-outs
+[12:18:28]   100/211 cut-outs
+[12:19:05]   150/211 cut-outs
+[12:19:42]   200/211 cut-outs
+[12:20:21] verdict 516896775755948416-58094 NOT_SEEN_UNCALIBRATED
+[12:20:21] === event 4078382201351836288-8 DR3 4078382201351836288
+[12:20:28] 4078382201351836288-8 images found 80 after quality cuts 48
+[12:21:03] verdict 4078382201351836288-8 NO_COVERAGE
+[12:21:03] done
